@@ -1,0 +1,13 @@
+---
+id: "controller"
+version: "1"
+apiVersion: "1"
+description: "The default bundle"
+plugins:
+- "plugins.yaml"
+catalog:
+- "plugin-catalog.yaml"
+jcasc:
+- "jenkins.yaml"
+rbac: []
+items: []
