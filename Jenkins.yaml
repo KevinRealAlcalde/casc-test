@@ -1,0 +1,34 @@
+jenkins:
+  systemMessage: "Hello!!"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  agentProtocols:
+    - "Diagnostic-Ping"
+    - "JNLP4-connect"
+    - "OperationsCenter2"
+    - "Ping"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  labelAtoms:
+    - name: "built-in"
+  markupFormatter:
+    rawHtml:
+      disableSyntaxHighlighting: false
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  noUsageStatistics: true
+  numExecutors: 2
+  securityRealm: "operationsCenter"
+  slaveAgentPort: 50000
+beekeeper:
+  enabled: true
+  securityWarnings:
+    enabledForCore: true
+    enabledForPlugins: true
+  upgrades:
+    autoDowngradePlugins: false
+    autoUpgradePlugins: false
+unclassified:
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
