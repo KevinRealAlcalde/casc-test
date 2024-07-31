@@ -1,0 +1,9 @@
+type: "plugin-catalog"
+version: "1"
+name: "oc-catalog"
+displayName: "OC catalog"
+configurations:
+  - description: "Extensions to CAP"
+    includePlugins:
+      mock-security-realm:
+        version: "1.6"
