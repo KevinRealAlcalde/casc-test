@@ -7,8 +7,7 @@ plugins:
 - "plugins.yaml"
 catalog:
 - "plugin-catalog.yaml"
-jcasc:
-- "jenkins.yaml"
+jcasc: []
 rbac: []
 items: 
  - "items.yaml"
