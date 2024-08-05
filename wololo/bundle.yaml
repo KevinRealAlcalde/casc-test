@@ -10,4 +10,5 @@ catalog:
 jcasc:
 - "jenkins.yaml"
 rbac: []
-items: []
+items: 
+ - "items.yaml"
